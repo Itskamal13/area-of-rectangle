@@ -1,0 +1,15 @@
+2. Write a program to print the area of a rectangle by creating a class named 'Area' having two methods. First method named as 'setDim' takes length and breadth of rectangle as parameters and the second method named as 'getArea' returns the area of the rectangle.
+
+class Area:
+    def setDim(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+
+    def getArea(self):
+        return self.length * self.breadth
+
+rectangle = Area()
+
+rectangle.setDim(5, 7)
+
+print("Area of the rectangle:", rectangle.getArea())
